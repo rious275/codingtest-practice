@@ -13,6 +13,7 @@ function solution(string, start, length) {
     }
   }
   
+  console.log(result);
   return result;
 }
 

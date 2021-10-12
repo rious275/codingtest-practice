@@ -4,6 +4,7 @@ function solution(list1, list2) {
   const arr = [];
   arr.push(...list1, ...list2);
 
+  console.log(arr);
   return arr
 }
 

@@ -7,6 +7,7 @@ function solution(data) {
     result = result + data[i];
   } 
   
+  console.log(result);
   return result;
 }
 

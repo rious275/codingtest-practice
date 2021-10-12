@@ -5,5 +5,3 @@ function solution(method) {
      method()
   }
 }
-
-solution(method)
