@@ -1,6 +1,6 @@
 // 다차원 배열(n x m 정사각형 형태) 대각선의 요소들의 합을 비교해서 차이값 반환
 
-function diagonalDifference(n, arr) {
+function diagonalDifference(arr) {
   let sumLeft = [];
   let sumRight = [];
   
@@ -23,7 +23,7 @@ function diagonalDifference(n, arr) {
   return Math.abs(resLeft - resRight);
 }
 
-console.log(diagonalDifference(3, [
+console.log(diagonalDifference([
   [11, 2, 4],
   [4, 5, 6],
   [10, 8, -12]
