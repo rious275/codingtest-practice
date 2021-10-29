@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body>
+  <h2 id="title">Element만들어서 DOM-Tree에 붙여보기</h2>
+  <article id="mission">
+    <p>JS를 이용해서 아래 파란박스의 내용처럼 황색박스에 똑같이 만들어주세요</p>
+    <p>파란박스의 id는 example이며 황색박스의 id는 container입니다 </p>
+    <p>파란박스 안에는 span이 두개 있으며, 첫번째 span에는 안녕, 두번째 span에는 하세요가 들어있습니다</p>
+  </article>
+  <div id="example">
+    <span>안녕</span><span>하세요</span>
+  </div>
+  <div id="container"></div>
+
+  <script>
+    let container = document.querySelector('#container');
+    let example = document.querySelector('#example');
+
+    container.innerHTML = example.innerHTML.trim();
+  </script>
+</body>
+</html>
